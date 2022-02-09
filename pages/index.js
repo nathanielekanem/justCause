@@ -16,10 +16,10 @@ export default function Home() {
           Welcome to JustCause!
         </h1>
 
-        // <p className={styles.description}>
-        //  Get started by editing{' '}
-        //  <code className={styles.code}>pages/index.js</code>
-        // </p>
+        {/*<p className={styles.description}>
+         Get started by editing{' '}
+         <code className={styles.code}>pages/index.js</code>
+        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -49,7 +49,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+  </div>*/}
       </main>
 
       <footer className={styles.footer}>
