@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .footer {
   display: flex;
   flex: 1;

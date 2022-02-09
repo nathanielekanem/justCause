@@ -11,6 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <h4>Brought to you by {"Ekanem Nathaniel"}</h4>
+      </header>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to JustCause!
