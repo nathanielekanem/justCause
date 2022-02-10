@@ -20,10 +20,14 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="./" className={styles.card}>
-            <h2>Dashboard &rarr;</h2>
-            <p>Coming soon...</p>
-          </a>
+          {//<a href="./" className={styles.card}>
+          }
+          {//  <h2>Dashboard &rarr;</h2>
+          }
+          {//  <p>Coming soon...</p>
+          }
+          {//</a>
+          }
 
           <a href="./" className={styles.card}>
             <h2>Music &rarr;</h2>
