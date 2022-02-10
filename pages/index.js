@@ -62,10 +62,10 @@ export default function Home() {
           </span>
         </a>
         <a href="www.minekglobal.com">
-          Sponsored by{' '}
-          <span className={styles.logo}>
+          Sponsored by Minek Global Business
+          {/*<span className={styles.logo}>
             <Image src="https://www.minekglobal.com/Minek%20Global%20Business%20Nigeria%20Limited_files/logo.png" alt="Minek Logo" width={72} height ={22} />
-          </span>
+        </span>*/}
         </a>
       </footer>
     </div>
