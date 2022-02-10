@@ -55,12 +55,12 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="./">
+        {/*<a href="./">
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </a>*/}
         <a href="www.minekglobal.com">
           Sponsored by Minek Global Business
           {/*<span className={styles.logo}>
