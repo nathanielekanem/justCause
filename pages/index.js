@@ -61,6 +61,12 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
+        <a href="www.minekglobal.com">
+          Sponsored by{' '}
+          <span className={styles.logo}>
+            <Image src="https://www.minekglobal.com/Minek%20Global%20Business%20Nigeria%20Limited_files/logo.png" alt="Minek Logo" width={72} height ={16} />
+          </span>
+        </a>
       </footer>
     </div>
   )
