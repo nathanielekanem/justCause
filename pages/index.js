@@ -29,7 +29,10 @@ export default function Home() {
           {//</a>
           }
 
-          <a href="./" className={styles.card}>
+          <a 
+            href="./" 
+            className={styles.card}
+          >
             <h2>Music &rarr;</h2>
             <p>Coming soon...</p>
           </a>
@@ -62,7 +65,7 @@ export default function Home() {
           </span>
         </a>*/}
         <a href="https://www.minekglobal.com">
-          Sponsored by Minek Global Business
+          Sponsored by Minek Global
           {/*<span className={styles.logo}>
             <Image src="https://www.minekglobal.com/Minek%20Global%20Business%20Nigeria%20Limited_files/logo.png" alt="Minek Logo" width={72} height ={22} />
         </span>*/}
