@@ -75,4 +75,14 @@ export default function Home() {
   )
 }
 
+export async function getServerSideProps(){
+  await new Promise((resolve) => {
+    setTimeout(resolve, 1000);
+  });
+
+  return{
+    props: {},
+  };
+}
+
 // rel="noopener noreferrer"
