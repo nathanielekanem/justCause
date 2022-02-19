@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to JustCause!
-        </h1>
+        </h1><br/><br/>
 
         <div className={styles.grid}>
           <a 
