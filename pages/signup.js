@@ -18,6 +18,7 @@ export default function Signup() {
 
       <body>
           <div className={styles.features}>
+              <h3>Features</h3>
               <ul>
                   <li>Friendly Assistant</li>
                   <li></li>
@@ -26,6 +27,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.entertainer}>
+              <h3>Entertainer</h3>
               <ul>
                   <li></li>
                   <li></li>
@@ -34,6 +36,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.user}>
+              <h3>jC user</h3>
               <ul>
                   <li></li>
                   <li></li>
@@ -42,6 +45,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.nonUser}>
+              <h3>Non User</h3>
               <ul>
                   <li>nope</li>
                   <li></li>
