@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <h3 className={styles.description}>
           <a
-            href="https:/justcause.vercel.app/signup"
+            href="/signup"
             className={styles.loginLink}
           >
             Signup to JustCause and join the wait list.
