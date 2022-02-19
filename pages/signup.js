@@ -1,10 +1,13 @@
 // justcause.vercel.app/signup
 
+import globalStyles from '../styles/globals.css'
+import signupStyles from '../styles/Signup.module.css'
+
 function signup() {
   return (
-    <div>
-        <h1>signup</h1>
-    </div>
+      <div className={globalStyles.body}>
+        <h1 className={signupStyles.header}>SIGNUP</h1>
+      </div>    
   )
 }
 

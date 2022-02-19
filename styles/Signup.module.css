@@ -1,0 +1,7 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0070f3;
+    font-size: 2rem;
+}
