@@ -6,7 +6,10 @@ import signupStyles from '../styles/Signup.module.css'
 function signup() {
   return (
       <div className={globalStyles.body}>
-        <h1 className={signupStyles.header}>SIGNUP</h1>
+        <h1 
+        className={signupStyles.header}>
+            SIGNUP
+        </h1>
       </div>    
   )
 }
