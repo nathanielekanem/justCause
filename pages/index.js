@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-      <>
+      <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to JustCause!
         </h1>
@@ -50,7 +50,7 @@ export default function Home() {
             Signup to JustCause and join the waiting list.
           </a>
         </h3>
-      </>
+      </main>
 
       <footer className={styles.footer}>
         {/*<a href="./">
