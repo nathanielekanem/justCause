@@ -44,10 +44,10 @@ export default function Home() {
         </div>
         <h3 className={styles.description}>
           <a
-            href=""
+            href="./signup"
             className={styles.loginLink}
           >
-            Signup to JustCause and join the waiting list.
+            Signup to JustCause and join the wait list.
           </a>
         </h3>
       </main>
