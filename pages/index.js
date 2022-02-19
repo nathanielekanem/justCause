@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,19 +15,12 @@ export default function Home() {
           Welcome to JustCause!
         </h1>
 
-        <h4>Brought to you by Ekanem Nathaniel</h4>
+        <h4 className={styles.description}>
+          Brought to you by Ekanem Nathaniel
+        </h4>
 
 
         <div className={styles.grid}>
-          {//<a href="./" className={styles.card}>
-          }
-          {//  <h2>Dashboard &rarr;</h2>
-          }
-          {//  <p>Coming soon...</p>
-          }
-          {//</a>
-          }
-
           <a 
             href="./" 
             className={styles.card}
@@ -54,7 +46,15 @@ export default function Home() {
               Coming soon...
             </p>
           </a>
-  </div>
+        </div>
+        <h3 className={styles.description}>
+          <a
+            href=""
+            className={styles.loginLink}
+          >
+            Signup to JustCause and join the waiting list.
+          </a>
+        </h3>
       </main>
 
       <footer className={styles.footer}>
@@ -64,7 +64,7 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>*/}
-        <a href="https://www.minekglobal.com">
+        <a href="https://www.minekglobal.com" rel="noopener noreferrer">
           Sponsored by Minek Global
           {/*<span className={styles.logo}>
             <Image src="https://www.minekglobal.com/Minek%20Global%20Business%20Nigeria%20Limited_files/logo.png" alt="Minek Logo" width={72} height ={22} />
@@ -74,15 +74,3 @@ export default function Home() {
     </div>
   )
 }
-
-export async function getServerSideProps(){
-  await new Promise((resolve) => {
-    setTimeout(resolve, 1000);
-  });
-
-  return{
-    props: {},
-  };
-}
-
-// rel="noopener noreferrer"
