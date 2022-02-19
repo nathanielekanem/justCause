@@ -16,7 +16,7 @@ export default function Signup() {
         </h1>
       </main>
 
-      <body>
+      <body className={styles.container}>
           <div className={styles.features}>
               <h3>Features</h3>
               <ul>
