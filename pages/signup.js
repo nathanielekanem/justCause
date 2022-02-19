@@ -15,6 +15,41 @@ export default function Signup() {
           Signup
         </h1>
       </main>
+
+      <body>
+          <div className={styles.features}>
+              <ul>
+                  <li>Friendly Assistant</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div>
+          <div className={styles.entertainer}>
+              <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div>
+          <div className={styles.user}>
+              <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div>
+          <div className={styles.nonUser}>
+              <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div>
+      </body>
     </div>
   )
 }
