@@ -1,13 +1,15 @@
 .container {
     padding: 0 2rem;
-     display: flex;
-     /* default flex-direction: row;*/
-     justify-content: space-around;
-     align-items: center;
+}
+.senior{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
 }
 .main {
-    min-height: 10vh;
-    padding: 2rem 0;
+    min-height: 100vh;
+    padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -33,28 +35,53 @@
   .loginLink {
     text-align: center;
 }
-.features,
-.entertainer,
-.user,
-.nonUser{
-    height: 50vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.features{
+.featuresGrid{
     display: flex;
-    position: absolute;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
 }
-.entertainer{
-    display: flex;
+
+.flyer {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
 }
-.user{
-    display: flex;
+
+.flyer:hover,
+.flyer:focus,
+.flyer:active {
+    color: #0070f3;
+    border-color: #0070f3;
 }
-.nonUser{
-    display: flex;
-    position: absolute;
-    align-items: right;
-    justify-content: right;
+
+.flyer h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.flyer p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+.grid {
+    width: 100%;
+    flex-direction: column;
+  }
 }

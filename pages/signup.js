@@ -3,7 +3,7 @@ import styles from '../styles/Signup.module.css'
 
 export default function Signup() {
   return (
-    <div>
+    <div className={styles.senior}>
       <Head>
         <title>~ JustCause ~ Signup</title>
         <meta name="description" content="Join JustCause Today!" />
@@ -14,10 +14,8 @@ export default function Signup() {
         <h1 className={styles.title}>
           Signup
         </h1>
-      </main>
-
-      <body className={styles.container}>
-          <div className={styles.features}>
+        <div className={styles.featuresGrid}>
+          <div className={styles.flyer}>
               <h3>Features</h3>
               <ul>
                   <li>Friendly General Assistant</li>
@@ -28,7 +26,7 @@ export default function Signup() {
                   <li>Hardworking Details Assistant</li>
               </ul>
           </div>
-          <div className={styles.entertainer}>
+          <div className={styles.flyer}>
               <h3>Entertainer</h3>
               <ul>
                   <li>Yes</li>
@@ -39,7 +37,7 @@ export default function Signup() {
                   <li>Yes</li>
               </ul>
           </div>
-          <div className={styles.user}>
+          <div className={styles.flyer}>
               <h3>jC user</h3>
               <ul>
                   <li>Yes</li>
@@ -50,7 +48,7 @@ export default function Signup() {
                   <li>No</li>
               </ul>
           </div>
-          <div className={styles.nonUser}>
+          <div className={styles.flyer}>
               <h3>Non User</h3>
               <ul>
                   <li>No</li>
@@ -61,7 +59,8 @@ export default function Signup() {
                   <li>No</li>
               </ul>
           </div>
-      </body>
+        </div>
+      </main>
     </div>
   )
 }
