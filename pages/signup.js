@@ -16,7 +16,7 @@ export default function Signup() {
         </h1>
         <div className={styles.featuresGrid}>
           <div className={styles.flyer}>
-              <h3>Features</h3>
+              <h2>Features</h2>
               <ul>
                   <li>Friendly General Assistant</li>
                   <li></li>
@@ -27,7 +27,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.flyer}>
-              <h3>Entertainer</h3>
+              <h2>Entertainer</h2>
               <ul>
                   <li>Yes</li>
                   <li></li>
@@ -38,7 +38,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.flyer}>
-              <h3>jC user</h3>
+              <h2>jC user</h2>
               <ul>
                   <li>Yes</li>
                   <li></li>
@@ -49,7 +49,7 @@ export default function Signup() {
               </ul>
           </div>
           <div className={styles.flyer}>
-              <h3>Non User</h3>
+              <h2>Non User</h2>
               <ul>
                   <li>No</li>
                   <li></li>
