@@ -41,7 +41,7 @@
     /*max-width: 800px;*/
 }
 
-.flyer {
+.flyer, .flyerFeatures {
     margin: 1rem;
     padding: 1.5rem;
     text-align: center;
@@ -61,7 +61,7 @@
     border-color: #0070f3;
 }
 
-.flyer h2 {
+.flyer, .flyerFeatures h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
     text-decoration: underline;

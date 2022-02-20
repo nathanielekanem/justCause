@@ -15,7 +15,7 @@ export default function Signup() {
           Signup
         </h1>
         <div className={styles.featuresGrid}>
-          <div className={styles.flyer}>
+          <div className={styles.flyerFeatures}>
               <h2>Features</h2>
               
                   <li>Friendly General Assistant</li>
