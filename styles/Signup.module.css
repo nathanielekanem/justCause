@@ -77,7 +77,7 @@
 }
 
 @media (max-width: 600px) {
-.grid {
+.featuresGrid {
     width: 100%;
     flex-direction: column;
   }
