@@ -34,7 +34,7 @@
 .featuresGrid{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     /*max-width: 800px;*/
 }
