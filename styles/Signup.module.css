@@ -52,7 +52,7 @@
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 200px;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .flyerFeatures{
