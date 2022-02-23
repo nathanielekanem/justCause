@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>~ JustCause ~</title>
         <meta name="description" content="JustCause Foundation 2022" />
-        <link rel="icon" href="/JC-icon.png" />
+        <link rel="icon" href="/JC-icon-resized.png" />
       </Head>
         
       <main className={styles.main}>
