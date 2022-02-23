@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -9,37 +9,26 @@ export default function Home() {
         <meta name="description" content="JustCause Foundation 2022" />
         <link rel="icon" href="/JC-icon-resized.png" />
       </Head>
-        
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to JustCause!
-        </h1><br/><br/>
+        <h1 className={styles.title}>Welcome to JustCause!</h1>
+        <br />
+        <br />
 
         <div className={styles.grid}>
-          <a 
-            href="./" 
-            className={styles.card}
-          >
+          <a href="./" className={styles.card}>
             <h2>Music &rarr;</h2>
             <p>Coming soon...</p>
           </a>
 
-          <a
-            href="./"
-            className={styles.card}
-          >
+          <a href="./" className={styles.card}>
             <h2>Books &rarr;</h2>
             <p>Coming soon...</p>
           </a>
 
-          <a
-            href="./"
-            className={styles.card}
-          >
+          <a href="./" className={styles.card}>
             <h2>Movies &rarr;</h2>
-            <p>
-              Coming soon...
-            </p>
+            <p>Coming soon...</p>
           </a>
         </div>
         <h3 className={styles.description}>
@@ -67,5 +56,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
