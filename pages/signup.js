@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import Fragment from 'react'
+import Head from "next/head";
+import Fragment from "react";
 import styles from "../styles/Signup.module.css";
 
 function Signup() {
   return (
-    <Fragment>
+    <div className={styles.container}>
       <Head>
         <title>~ JustCause ~ Signup</title>
         <meta name="description" content="Signup on JustCause today!" />
@@ -16,11 +16,11 @@ function Signup() {
         <div className={styles.card}>
           <h2>Creator &rarr;</h2>
         </div>
-        <div className={styles.grid}>
+        <div className={styles.card}>
           <h2>User &rarr;</h2>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-.h1 {
+h1 {
   text-align: center;
 }
 
@@ -28,9 +28,9 @@
   border-color: #0070f3;
 }
 
-.card:active{
-    color: #59656F;
-    border-color: #59656F;
+.card:active {
+  color: #59656f;
+  border-color: #59656f;
 }
 
 .card h2 {
