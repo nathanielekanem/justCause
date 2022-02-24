@@ -1,9 +1,8 @@
-import Fragment from "react";
 import styles from "../styles/Signup.module.css";
 
 function Signup() {
   return (
-    <Fragment>
+    <div className="styles.container">
       <Head>
         <title>~ JustCause ~ Signup</title>
         <meta name="description" content="Signup on JustCause today!" />
@@ -19,7 +18,7 @@ function Signup() {
           <h2>User &rarr;</h2>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 }
 
