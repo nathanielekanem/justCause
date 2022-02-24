@@ -41,7 +41,7 @@
   background-color: #fff;
   border-color: #0070f3;
 
-  animation: cardBackgroundOnHover 7s linear infinite;
+  animation: cardBackgroundOnHover 4s linear infinite;
 }
 
 .card:active {
@@ -62,7 +62,6 @@
 }
 
 @keyframes cardBackgroundOnHover{
-  0%{background-color: #fff;}
   25%{background-color: #ffff00;}
   50%{background-color: #008000;}
   75%{background-color: #800080;}
