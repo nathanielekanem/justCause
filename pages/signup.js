@@ -4,6 +4,12 @@ import styles from "../styles/Signup.module.css";
 function Signup() {
   return (
     <Fragment>
+      <Head>
+        <title>~ JustCause ~ Signup</title>
+        <meta name="description" content="Signup on JustCause today!" />
+        <link rel="icon" href="/JC-icon-resized.png" />
+      </Head>
+
       <h1>Sign Up</h1>
       <div className={styles.grid}>
         <div className={styles.card}>
