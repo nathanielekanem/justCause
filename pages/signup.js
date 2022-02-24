@@ -10,16 +10,19 @@ function Signup() {
         <meta name="description" content="Signup on JustCause today!" />
         <link rel="icon" href="/JC-icon-resized.png" />
       </Head>
-
-      <h1 className={styles.title}>Sign Up</h1>
-      <div className={styles.grid}>
-        <div className={styles.card}>
-          <h2>Creator &rarr;</h2>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Sign Up</h1>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h2>Creator &rarr;</h2>
+            <p>Signup as a content creator.</p>
+          </div>
+          <div className={styles.card}>
+            <h2>User &rarr;</h2>
+            <p>Signup as a regular jC user.</p>
+          </div>
         </div>
-        <div className={styles.card}>
-          <h2>User &rarr;</h2>
-        </div>
-      </div>
+      </main>
     </div>
   );
 }
