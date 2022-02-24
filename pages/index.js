@@ -36,7 +36,7 @@ export default function Home() {
             href="./" // ./signup
             className={styles.loginLink}
           >*/}
-            Signup to JustCause and join the wait list.
+          Signup to JustCause and join the wait list.
           {/*</a>*/}
         </h3>
       </main>
