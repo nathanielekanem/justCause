@@ -32,12 +32,12 @@ export default function Home() {
           </a>
         </div>
         <h3 className={styles.description}>
-          <a
+          {/*<a
             href="./" // ./signup
             className={styles.loginLink}
-          >
+          >*/}
             Signup to JustCause and join the wait list.
-          </a>
+          {/*</a>*/}
         </h3>
       </main>
 
