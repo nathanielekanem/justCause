@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  text-decoration: underline;
 }
 
 .main {
@@ -30,6 +31,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  min-height: 70px;
 }
 
 .card:hover,
