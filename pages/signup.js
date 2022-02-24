@@ -11,7 +11,7 @@ function Signup() {
         <link rel="icon" href="/JC-icon-resized.png" />
       </Head>
 
-      <h1>Sign Up</h1>
+      <h1 className={styles.title}>Sign Up</h1>
       <div className={styles.grid}>
         <div className={styles.card}>
           <h2>Creator &rarr;</h2>
