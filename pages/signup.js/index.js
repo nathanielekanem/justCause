@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import styles from "../../styles/Signup.module.css";
 
 function Signup() {
@@ -17,10 +16,8 @@ function Signup() {
         <h1 className={styles.title}>Sign Up</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <Link href="https://justcause.vercel.app/signup/creator">
               <h2>creator &rarr;</h2>
               <p>Signup as a content creator.</p>
-            </Link>
           </div>
           <div className={styles.card}>
             <h2>user &rarr;</h2>
