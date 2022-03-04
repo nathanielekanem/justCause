@@ -9,7 +9,7 @@ function Signup() {
         <meta name="description" content="Signup on JustCause today!" />
         <link
           rel="icon"
-          href="/Dada's because nathan sucks at making logos and practically anything else!!!"
+          href="../../public/Dada's because nathan sucks at making logos and practically anything else!!!"
         />
       </Head>
       <main className={styles.main}>
