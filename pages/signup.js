@@ -13,12 +13,16 @@ function Signup() {
         <h1 className={styles.title}>Sign Up</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h2>Creator &rarr;</h2>
+            <h2>creator &rarr;</h2>
             <p>Signup as a content creator.</p>
           </div>
           <div className={styles.card}>
-            <h2>User &rarr;</h2>
+            <h2>user &rarr;</h2>
             <p>Signup as a regular jC user.</p>
+          </div>
+          <div className={styles.card}>
+            <h2>non-jC user</h2>
+            <p>Don't signup...</p>
           </div>
         </div>
       </main>

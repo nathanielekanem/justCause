@@ -40,8 +40,6 @@
   color: #fff;
   background-color: #fff;
   border-color: #0070f3;
-
-  animation: cardBackgroundOnHover 4s linear infinite;
 }
 
 .card:active {
@@ -59,11 +57,4 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-@keyframes cardBackgroundOnHover{
-  25%{background-color: #ffff00;}
-  50%{background-color: #008000;}
-  75%{background-color: #800080;}
-  100%{background-color: #ff0000;}
 }
