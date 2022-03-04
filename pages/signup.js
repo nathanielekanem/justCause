@@ -7,7 +7,7 @@ function Signup() {
       <Head>
         <title>~ JustCause ~ Signup</title>
         <meta name="description" content="Signup on JustCause today!" />
-        <link rel="icon" href="/JC-icon-resized.png" />
+        <link rel="icon" href="/Dada's because nathan sucks at making logos and practically anything else!!!" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Sign Up</h1>
