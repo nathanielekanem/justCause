@@ -5,9 +5,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>~ JustCause ~</title>
-        <meta name="description" content="JustCause Foundation 2022" />
-        <link rel="icon" href="/JC-icon-resized.png" />
+        <title>JustCause</title>
+        <meta
+          name="description"
+          content="JustCause is a platform for creating and redistributing content like art, music, books and even videos! Join Us now and be one of the first to share your content with the world! Click here to join."
+        />
+        <link rel="apple-touch-icon" href="/jcFinalIcon.png" />
       </Head>
 
       <main className={styles.main}>
@@ -32,12 +35,11 @@ export default function Home() {
           </a>
         </div>
         <h3 className={styles.description}>
-          {/*<a
-            href="./" // ./signup
-            className={styles.loginLink}
-          >*/}
+          <a
+            href="https://justcause.vercel.app/waitlist-signupp"
+          >
           Signup to JustCause and join the wait list.
-          {/*</a>*/}
+          </a>
         </h3>
       </main>
 
@@ -48,7 +50,7 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>*/}
-        <a href="https://www.minekglobal.com" rel="noopener noreferrer">
+        <a href="https://www.minekglobal.com" rel="noopener noreferrer" target="_blank">
           Sponsored by Minek Global
           {/*<span className={styles.logo}>
             <Image src="https://www.minekglobal.com/Minek%20Global%20Business%20Nigeria%20Limited_files/logo.png" alt="Minek Logo" width={72} height ={22} />
