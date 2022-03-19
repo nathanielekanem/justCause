@@ -26,7 +26,7 @@ function waitlistSignup() {
                 type="text"
                 id="Name"
                 className="formInput"
-                autofocus
+                
                 placeholder="First Name    Last Name"
               />
               <div className="formInputErrorMessage"></div>
@@ -36,7 +36,7 @@ function waitlistSignup() {
                 type="text"
                 id="Username"
                 className="formInput"
-                autofocus
+                
                 placeholder="Username"
               />
               <div className="formInputErrorMessage"></div>
@@ -46,7 +46,7 @@ function waitlistSignup() {
                 type="email"
                 id="Email"
                 className="formInput"
-                autofocus
+                
                 placeholder="Email"
               />
               <div className="formInputErrorMessage"></div>
@@ -56,7 +56,7 @@ function waitlistSignup() {
                 type="tel"
                 id="tel"
                 className="formInput"
-                autofocus
+                
                 placeholder="Phone Number"
               />
             </div>
@@ -66,7 +66,7 @@ function waitlistSignup() {
                 type=""
                 id="Country"
                 className="formInput"
-                autofocus
+                
                 placeholder="Country"
               />
               <div className="formInputErrorMessage"></div>
@@ -76,7 +76,7 @@ function waitlistSignup() {
                 type="DOB"
                 id="DateOfBirth"
                 className="formInput"
-                autofocus
+                
                 placeholder="D.O.B"
               />
               <div className="formInputErrorMessage"></div>
@@ -86,7 +86,7 @@ function waitlistSignup() {
                 type="text"
                 id="BSCAddress"
                 className="formInput"
-                autofocus
+                
                 placeholder="Binance Smart Chain (BEP20) address"
               />
               <div className="formInputErrorMessage"></div>
@@ -96,7 +96,7 @@ function waitlistSignup() {
                 type="password"
                 id="Password"
                 className="formInput"
-                autofocus
+                
                 placeholder="Password"
               />
               <div className="formInputErrorMessage"></div>
@@ -106,7 +106,7 @@ function waitlistSignup() {
                 type="password"
                 id="PasswordConfirmation"
                 className="formInput"
-                autofocus
+                
                 placeholder="Confirm Password"
               />
               <div className="formInputErrorMessage"></div>
