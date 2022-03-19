@@ -3,7 +3,7 @@ import styles from "../styles/waitlistSignup.module.css";
 
 function waitlistSignup() {
   return (
-    <div className={styles.container}>
+    <div classNameName={styles.container}>
       <Head>
         <title>Signup</title>
         <meta
@@ -18,100 +18,100 @@ function waitlistSignup() {
         <h3 className={styles.title}>Lets grow the family together!</h3>
         <br />
         <br />
-        <div className={styles.form}>
+        <div classNameName={styles.form}>
           <form action="POST" id="createAccount">
-            <div class="formMessage formMessageError"></div>
-            <div class="formInputGroup">
+            <div className="formMessage formMessageError"></div>
+            <div className="formInputGroup">
               <input
                 type="text"
                 id="Name"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="First Name    Last Name"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="text"
                 id="Username"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Username"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="email"
                 id="Email"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Email"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="tel"
                 id="tel"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Phone Number"
               />
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               {/** get type for country */}
               <input
                 type=""
                 id="Country"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Country"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="DOB"
                 id="DateOfBirth"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="D.O.B"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="text"
                 id="BSCAddress"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Binance Smart Chain (BEP20) address"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="password"
                 id="Password"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Password"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <div class="formInputGroup">
+            <div className="formInputGroup">
               <input
                 type="password"
                 id="PasswordConfirmation"
-                class="formInput"
+                className="formInput"
                 autofocus
                 placeholder="Confirm Password"
               />
-              <div class="formInputErrorMessage"></div>
+              <div className="formInputErrorMessage"></div>
             </div>
-            <button class="formButton" type="button" value="Take Me In!" />
+            <button className="formButton" type="button" value="Take Me In!" />
             {/*Change to svg*/}
           </form>
         </div>
