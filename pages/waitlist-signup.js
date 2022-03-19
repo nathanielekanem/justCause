@@ -15,7 +15,7 @@ function waitlistSignup() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Signup Early</h1>
-        <h3 className={styles.title}>Lets grow the family together!</h3>
+        <h6 className={styles.title}>Lets grow the family together!</h6>
         <br />
         <br />
         <div classNameName={styles.form}>
