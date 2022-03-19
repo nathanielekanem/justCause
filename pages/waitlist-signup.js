@@ -11,6 +11,7 @@ function waitlistSignup() {
           content="Be one of the first to join JustCause waitlist and get 200JCT instantly."
         />
         <link rel="apple-touch-icon" href="jcFinalIcon.png" />
+        <link rel="icon" href="jcFinalIcon.png" />
       </Head>
 
       <main className={styles.main}>
