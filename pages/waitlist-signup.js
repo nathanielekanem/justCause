@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/waitlistSignup.module.css";
 
-function waitlistSignup() {
+export default function waitlistSignup() {
   return (
     <div classNameName={styles.container}>
       <Head>
@@ -23,6 +23,7 @@ function waitlistSignup() {
           <form action="POST" id="createAccount">
             <div className="formMessage formMessageError"></div>
             <div className="formInputGroup">
+              Name:
               <input
                 type="text"
                 id="Name"
@@ -33,12 +34,13 @@ function waitlistSignup() {
               <div className="formInputErrorMessage"></div>
             </div>
             <div className="formInputGroup">
+              Username:
               <input
                 type="text"
                 id="Username"
                 className="formInput"
                 
-                placeholder="Username"
+                placeholder="justcause"
               />
               <div className="formInputErrorMessage"></div>
             </div>
@@ -120,5 +122,3 @@ function waitlistSignup() {
     </div>
   );
 }
-
-export default waitlistSignup;
