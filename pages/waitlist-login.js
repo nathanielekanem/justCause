@@ -3,7 +3,7 @@ import styles from "../styles/waitlistLogin.module.css";
 
 export default function waitlistLogin() {
   return (
-    <div classNameName={styles.container}>
+    <div className={styles.container}>
       <Head>
         <title>Login</title>
         <meta
@@ -18,11 +18,11 @@ export default function waitlistLogin() {
         <h1 className={styles.title}>JustCause</h1>
         <br />
         <br />
-        <div classNameName={styles.form}>
+        <div className={styles.form}>
           <ul id="form-error-messages"></ul>
 
           <label for="username">Username</label>
-          <input type="text" id="username" spellcheck="false" />
+          <input type="text" id="username" spellCheck="false" />
 
           <label for="password">Password</label>
           <input type="password" id="password" />

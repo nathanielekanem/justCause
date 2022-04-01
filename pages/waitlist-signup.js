@@ -19,7 +19,7 @@ export default function waitlistSignup() {
         <h2 className={styles.description}>Lets grow the family together!</h2>
         <br />
         <br />
-        <div classNameName={styles.form}>
+        <div className={styles.form}>
           <form action="POST" id="createAccount">
             <div className="formMessage formMessageError"></div>
             <div className="formInputGroup">
@@ -28,7 +28,6 @@ export default function waitlistSignup() {
                 type="text"
                 id="Name"
                 className="formInput"
-                
                 placeholder="First Name    Last Name"
               />
               <div className="formInputErrorMessage"></div>
@@ -39,58 +38,17 @@ export default function waitlistSignup() {
                 type="text"
                 id="Username"
                 className="formInput"
-                
                 placeholder="justcause"
               />
               <div className="formInputErrorMessage"></div>
             </div>
             <div className="formInputGroup">
+              Email:
               <input
                 type="email"
                 id="Email"
                 className="formInput"
-                
                 placeholder="Email"
-              />
-              <div className="formInputErrorMessage"></div>
-            </div>
-            <div className="formInputGroup">
-              <input
-                type="tel"
-                id="tel"
-                className="formInput"
-                
-                placeholder="Phone Number"
-              />
-            </div>
-            <div className="formInputGroup">
-              {/** get type for country */}
-              <input
-                type=""
-                id="Country"
-                className="formInput"
-                
-                placeholder="Country"
-              />
-              <div className="formInputErrorMessage"></div>
-            </div>
-            <div className="formInputGroup">
-              <input
-                type="DOB"
-                id="DateOfBirth"
-                className="formInput"
-                
-                placeholder="D.O.B"
-              />
-              <div className="formInputErrorMessage"></div>
-            </div>
-            <div className="formInputGroup">
-              <input
-                type="text"
-                id="BSCAddress"
-                className="formInput"
-                
-                placeholder="Binance Smart Chain (BEP20) address"
               />
               <div className="formInputErrorMessage"></div>
             </div>
@@ -99,7 +57,6 @@ export default function waitlistSignup() {
                 type="password"
                 id="Password"
                 className="formInput"
-                
                 placeholder="Password"
               />
               <div className="formInputErrorMessage"></div>
@@ -109,7 +66,6 @@ export default function waitlistSignup() {
                 type="password"
                 id="PasswordConfirmation"
                 className="formInput"
-                
                 placeholder="Confirm Password"
               />
               <div className="formInputErrorMessage"></div>
@@ -117,6 +73,45 @@ export default function waitlistSignup() {
             <button className="formButton" type="button" value="Take Me In!" />
             {/*Change to svg*/}
           </form>
+          <div className={styles.hiddenForm}>
+            {/**Start of second form */}
+            <div className="formInputGroup">
+              <input
+                type="tel"
+                id="tel"
+                className="formInput"
+                placeholder="Phone Number"
+              />
+            </div>
+            <div className="formInputGroup">
+              {/** get type for country */}
+              <input
+                type=""
+                id="Country"
+                className="formInput"
+                placeholder="Country"
+              />
+              <div className="formInputErrorMessage"></div>
+            </div>
+            <div className="formInputGroup">
+              <input
+                type="DOB"
+                id="DateOfBirth"
+                className="formInput"
+                placeholder="D.O.B"
+              />
+              <div className="formInputErrorMessage"></div>
+            </div>
+            <div className="formInputGroup">
+              <input
+                type="text"
+                id="BSCAddress"
+                className="formInput"
+                placeholder="Binance Smart Chain (BEP20) address"
+              />
+              <div className="formInputErrorMessage"></div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
