@@ -21,10 +21,10 @@ export default function waitlistLogin() {
         <div className={styles.form}>
           <ul id="form-error-messages"></ul>
 
-          <label for="username">Username</label>
+          <label htmlFor="username">Username</label>
           <input type="text" id="username" spellCheck="false" />
 
-          <label for="password">Password</label>
+          <label htmlFor="password">Password</label>
           <input type="password" id="password" />
 
           <button type="submit" id="btn-submit">
