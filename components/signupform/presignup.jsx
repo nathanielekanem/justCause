@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react";
 
-function presignup() {
+export default function presignup() {
   const {
     register,
     handleSubmit,
@@ -82,10 +82,52 @@ function presignup() {
 
             {/**Put in an arrow at the side from boxicon */}
           </div>
+
+          <div className="card-body form-hidden">
+            <div className="form-group p-4">
+              <label htmlFor="DOB">Date Of Birth:</label>
+              <input
+                className="form-control"
+                {...register("DOB", { required: true })}
+              />
+              {errors.DOB && errors.DOB.type === "required" && (
+                <p className="errorText">Please input your date of birth.</p>
+              )}
+            </div>
+            <div className="form-group p-4">
+              <label htmlFor="country">Country:</label>
+              <input
+                className="form-control"
+                {...register("country", { required: true })}
+              />
+              {errors.country && errors.country.type === "required" && (
+                <p className="errorText">Please input your country.</p>
+              )}
+            </div>
+            <div className="form-group p-4">
+              <label htmlFor="bsc-address">BEP-20 Address:</label>
+              <input
+                className="form-control"
+                {...register("bsc-address", { required: true })}
+              />
+              {errors.bsc - address &&
+                errors.bsc - address.type === "required" && (
+                  <p className="errorText">Invalid wallet address.</p>
+                )}
+            </div>
+            <div className="form-group p-4">
+              <label htmlFor="referrer-code">Referrer's Code:</label>
+              <input
+                className="form-control"
+                {...register("referrer-code", { required: false })}
+              />
+            </div>
+            <div className="form-group p-4">
+              <input type="submit" className="btn btn-go" />
+            </div>
+          </div>
         </form>
       </div>
     </div>
   );
 }
-
-export default presignup;

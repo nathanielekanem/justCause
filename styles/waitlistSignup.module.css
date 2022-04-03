@@ -62,12 +62,6 @@ body {
 }
 
 /* Form Styling Start */
-
-.form {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 .card{
 
 }
@@ -97,7 +91,7 @@ body {
   
   /*Put in some shadow*/
 }
-.formInput {
+.form-group {
   display: block;
   width: 100%;
   padding: 0.75rem;
@@ -107,20 +101,11 @@ body {
   outline: none;
   background: #eeeeee;
 }
-.formInput:focus {
+.form-group:focus {
   border-color: var(--color-primary);
   background: #ffffff;
 }
-.formInputError {
-  color: var(--color-error);
-  border-color: var(--color-error);
-}
-.formInputErrorMessage {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: var(--color-error);
-}
-.formButton {
+.btn .btn-go {
   width: 100%;
   padding: 1rem 2rem;
   font-weight: bold;
@@ -132,28 +117,12 @@ body {
   cursor: pointer;
   background: var(--color-primary);
 }
-.formButton:hover {
+.btn:hover, .btn-go:hover {
   background: var(--color-primary-dark);
 }
-.formButton:active {
+.btn:active, .btn-go:active {
   transform: scale(0.98);
 }
-.formText {
-  text-align: center;
-}
-.formLink {
-  color: var(--color-secondary);
-  text-decoration: none;
-  cursor: pointer;
-}
-.formLink:hover {
-  color: var(--color-primary-dark);
-}
-.formLink:hover {
-  text-decoration: underline;
-  text-decoration: none;
-}
-
 /* Form Styling End */
 
 @media (max-width: 600px) {

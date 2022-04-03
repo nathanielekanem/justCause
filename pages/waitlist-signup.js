@@ -19,8 +19,8 @@ export default function waitlistSignup() {
         <h1 className={styles.title}>Signup Early</h1>
         <h2 className={styles.description}>Lets grow the family together!</h2>
         <br />
-        <presignup/>
       </main>
+      <presignup/>
     </div>
   );
 }
