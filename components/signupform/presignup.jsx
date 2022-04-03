@@ -116,10 +116,10 @@ export default function presignup() {
                 )}
             </div>
             <div className="form-group p-4">
-              <label htmlFor="referrer-code">Referrer's Code:</label>
+              <label htmlFor="referrercode">Referrer Code:</label>
               <input
                 className="form-control"
-                {...register("referrer-code", { required: false })}
+                {...register("referrercode", { required: false })}
               />
             </div>
             <div className="form-group p-4">
