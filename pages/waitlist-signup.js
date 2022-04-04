@@ -1,16 +1,13 @@
 import Head from "next/head";
 import React from "react";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
 import styles from "../styles/waitlistSignup.module.css";
-import { validateSchema } from "webpack";
 
 function Presignup() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm({ resolver: yupResolver(validateSchema) });
+  } = useForm();
   const submitHandler = (i) => {
     {
       console.log(i);
@@ -158,4 +155,4 @@ function waitlistSignup() {
   );
 }
 
-export default waitlistSignup;
+export default waitlistSignup
