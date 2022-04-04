@@ -1,19 +1,15 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-export default function Presignup() {
+function Presignup() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm({
-    resolver: yupResolver(Presignup)
-  });
+  } = useForm();
   const submitHandler = (i) => {
     {
-      {
-        /**Add code to send data to database. */
-      }
+      console.log(i);
     }
   };
   return (
@@ -133,3 +129,5 @@ export default function Presignup() {
     </div>
   );
 }
+
+export default Presignup
