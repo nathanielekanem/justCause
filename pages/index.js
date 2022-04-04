@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>JustCause</title>
+        <title>justCause</title>
         <meta
           name="description"
           content="JustCause is a platform for creating and redistributing content like art, music, books and even videos! Join Us now and be one of the first to share your content with the world! Click here to join."
