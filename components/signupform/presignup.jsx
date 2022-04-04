@@ -1,12 +1,15 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { yupResolver } from "react-hook-form-resolvers"
 
 export default function Presignup() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    resolver: yupResolver(Presignup)
+  });
   const submitHandler = (i) => {
     {
       {
