@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Presignup from "../components/signupform/presignup";
+import Presignup from "../components/signupform/Presignup";
 import styles from "../styles/waitlistSignup.module.css";
 
 export default function waitlistSignup() {

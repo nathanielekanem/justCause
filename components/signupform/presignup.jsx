@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-export default function presignup() {
+export default function Presignup() {
   const {
     register,
     handleSubmit,
