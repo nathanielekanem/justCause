@@ -1,13 +1,10 @@
-body {
+.container {
   --color-primary: #0070f3;
   --color-warning: #59656f;
   --color-secondary: #0070f3;
   --color-error: #cc3333;
   --color-success: #4bb544;
   --border-radius: 4px;
-}
-
-.container {
   padding: 0 2rem;
 }
 
