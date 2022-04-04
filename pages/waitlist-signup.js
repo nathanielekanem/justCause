@@ -1,5 +1,5 @@
 import Head from "next/head";
-import presignup from "../components/signupform/presignup";
+import Presignup from "../components/signupform/presignup";
 import styles from "../styles/waitlistSignup.module.css";
 
 export default function waitlistSignup() {
@@ -20,7 +20,7 @@ export default function waitlistSignup() {
         <h2 className={styles.description}>Lets grow the family together!</h2>
         <br />
       </main>
-      <presignup/>
+      <Presignup/>
     </div>
   );
 }
