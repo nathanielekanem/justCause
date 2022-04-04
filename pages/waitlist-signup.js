@@ -1,5 +1,5 @@
-import Head from "next/head";
 import React from "react";
+import Head from "next/head";
 import { useForm } from "react-hook-form";
 import styles from "../styles/waitlistSignup.module.css";
 
