@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import { useForm } from "react-hook-form";
 import styles from "../styles/waitlistSignup.module.css";
 
 function Presignup() {
@@ -7,7 +8,7 @@ function Presignup() {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm;
   const submitHandler = (i) => {
     {
       console.log(i);
