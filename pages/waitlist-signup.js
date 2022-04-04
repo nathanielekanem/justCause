@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { useForm } from "react-hook-form";
-import Presignup from "../components/signupform/presignup";
+import Presignup from "../components/signupform/Presignup.module.jsx";
 import styles from "../styles/waitlistSignup.module.css";
 
 export default function waitlistSignup() {
