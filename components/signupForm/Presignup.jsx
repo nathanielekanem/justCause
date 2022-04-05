@@ -1,12 +1,12 @@
 import React from "react";
-import { useForm } from "react-hook-form";
+import useForm from "react-hook-form";
 
 function Presignup() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm;
+  } = useForm();
   const submitHandler = (i) => {
     {
       console.log(i);
