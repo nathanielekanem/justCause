@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import { useForm } from "react-hook-form";
 import Presignup from "../components/signupForm/Presignup"
 import styles from "../styles/waitlistSignup.module.css";
 
