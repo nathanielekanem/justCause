@@ -1,8 +1,6 @@
 import Head from "next/head";
-import React from "react";
-import Presignup from "../components/signupForm/Presignup"
 import styles from "../styles/waitlistSignup.module.css";
-
+import Signupform from "../components/signupform/Signupform";
 
 function waitlistSignup() {
   return (
@@ -23,9 +21,10 @@ function waitlistSignup() {
         <br />
       </main>
 
-      <Presignup />
+      {/** form starts */}
+      <Signupform />
     </div>
   );
 }
 
-export default waitlistSignup
+export default waitlistSignup;
