@@ -1,7 +1,6 @@
-import React from "react";
 import { Formik } from "formik";
 
-const Signupform = () => (
+function Signupform(){
   <Formik
     initialValues={{
       fullname: "",
@@ -64,6 +63,6 @@ const Signupform = () => (
       </form>
     )}
   </Formik>
-);
+}
 
 export default Signupform;

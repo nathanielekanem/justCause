@@ -8,7 +8,7 @@ export default function Home() {
         <title>justCause</title>
         <meta
           name="description"
-          content="JustCause is a platform for creating and redistributing content like art, music, books and even videos! Join Us now and be one of the first to share your content with the world! Click here to join."
+          content="justCause is a platform for creating and redistributing content like art, music, books and even videos! Join Us now and be one of the first to share your content with the world! Click here to join."
         />
         <link rel="apple-touch-icon" href="/jcFinalIcon.png" />
         <link rel="icon" href="jcFinalIcon.png" />
