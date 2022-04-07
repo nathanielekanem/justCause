@@ -91,3 +91,5 @@ function Signupform() {
     </div>
   );
 }
+
+export default Signupform
