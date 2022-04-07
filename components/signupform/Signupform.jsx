@@ -32,16 +32,16 @@
 function Signupform() {
   if (confirmPassword != password) {
     {
-      alert("Passwords do not match!");
+      alert("Passwords do not match!")
     }
   }
 
   const callNextForm = (e) => {
-    e.preventDefault();
+    e.preventDefault()
   };
 
   const submit = (event) => {
-    event.preventDefault();
+    event.preventDefault()
   };
 
   return (
