@@ -32,16 +32,16 @@
 function Signupform() {
   if (confirmPassword != password) {
     {
-      alert("Passwords do not match!")
+      alert("Passwords do not match!");
     }
   }
 
   const callNextForm = (e) => {
-    e.preventDefault()
+    e.preventDefault();
   };
 
   const submit = (event) => {
-    event.preventDefault()
+    event.preventDefault();
   };
 
   return (
@@ -83,7 +83,7 @@ function Signupform() {
           <input type="text" name="bep20Address" id="bep20address" required />
 
           <label htmlFor="referrerCode">Referrer's Code</label>
-          <input type="text" name="refCode" id="refCode" pattern=".{,jC}" />
+          <input type="text" name="refCode" id="refCode" />
 
           <button type="submit">Submit</button>
         </form>
