@@ -82,7 +82,7 @@ function Signupform() {
           <label htmlFor="Bep20Address">Bep20 Address</label>
           <input type="text" name="bep20Address" id="bep20address" required />
 
-          <label htmlFor="referrerCode">Referrer's Code</label>
+          <label htmlFor="referrerCode">Referrer&apos;s Code</label>
           <input type="text" name="refCode" id="refCode" />
 
           <button type="submit">Submit</button>
